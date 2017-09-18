@@ -24,7 +24,7 @@ $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn network-manager-ap
 $ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb golang
 $ sudo dnf install ansible docker htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs
 $ sudo dnf install firefox libreoffice evince
-$ sudo dnf install virt-manager libvirt-client libvirt-daemon nfs-utils
+$ sudo dnf install virt-manager libvirt-client libvirt-daemon libvirt-daemon-kvm ibvirt-daemon-config-network nfs-utils qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 $ sudo dnf install ImageMagick ffmpeg geeqie gimp youtube-dl wireshark nmap mtr unrar mplayer pavucontrol powertop
 ```
