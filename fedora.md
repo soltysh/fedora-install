@@ -18,7 +18,7 @@ Run these commands to install X, i3 and a terminal.
 
 ```sh
 $ sudo dnf install @base-x i3 i3lock xbindkeys
-$ sudo dnf install abattis-cantarell-fonts dejavu-fonts-common dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts fontconfig fonts-tweak-tool ghostscript-fonts google-crosextra-caladea-fonts google-crosextra-carlito-fonts levien-inconsolata-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts terminus-fonts urw-fonts freetype-freeworld lxappearance greybird-gtk2-theme greybird-gtk3-theme
+$ sudo dnf install abattis-cantarell-fonts dejavu-fonts-common dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts fontconfig fonts-tweak-tool ghostscript-fonts google-crosextra-caladea-fonts google-crosextra-carlito-fonts levien-inconsolata-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts terminus-fonts urw-fonts freetype-freeworld lxappearance greybird-gtk2-theme greybird-gtk3-theme pulseaudio-utils alsa-plugins-pulseaudio mpg123-plugins-pulseaudio
 $ sudo dnf install rxvt-unicode bash-completion
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn network-manager-applet
 $ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb golang
