@@ -21,8 +21,8 @@ $ sudo dnf install @base-x i3 i3lock xbindkeys
 $ sudo dnf install abattis-cantarell-fonts dejavu-fonts-common dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts fontconfig fonts-tweak-tool ghostscript-fonts google-crosextra-caladea-fonts google-crosextra-carlito-fonts levien-inconsolata-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts terminus-fonts urw-fonts freetype-freeworld lxappearance greybird-gtk2-theme greybird-gtk3-theme pulseaudio-utils alsa-plugins-pulseaudio mpg123-plugins-pulseaudio
 $ sudo dnf install rxvt-unicode bash-completion
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn network-manager-applet
-$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb golang
-$ sudo dnf install ansible docker htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools
+$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb golang glide
+$ sudo dnf install ansible docker htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie
 $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager libvirt-client libvirt-daemon libvirt-daemon-kvm ibvirt-daemon-config-network nfs-utils qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
