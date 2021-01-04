@@ -23,12 +23,12 @@ $ sudo dnf copr enable vbatts/bazel
 $ sudo dnf install fontconfig fonts-tweak-tool fontconfig-font-replacements bitstream-vera-sans-fonts blender-fonts courier-prime-fonts dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts eosrei-emojione-fonts fontawesome-fonts gdouros-symbola-fonts gelasio-fonts google-droid-sans-fonts google-droid-sans-mono-fonts google-noto-emoji-color-fonts levien-inconsolata-fonts liberation-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts libfonts libre-baskerville-fonts terminus-fonts
 $ sudo dnf install lxappearance pulseaudio-utils alsa-plugins-pulseaudio mpg123-plugins-pulseaudio xclip
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn network-manager-applet
-$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel
-$ sudo dnf install ansible podman htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie
+$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel hub patch perf sqlite strace tree whois ShellCheck cronie
+$ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassx lsof openssl
 $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager bridge-utils libvirt virt-install qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-$ sudo dnf install ImageMagick ffmpeg geeqie gimp youtube-dl wireshark nmap mtr unrar mplayer pavucontrol inkscape blender darktable
+$ sudo dnf install ImageMagick ffmpeg geeqie gimp youtube-dl wireshark nmap mtr unrar mplayer pavucontrol inkscape blender darktable audacity openshot
 ```
 
 ### Setting up environment
