@@ -24,7 +24,7 @@ $ sudo dnf install fontconfig fonts-tweak-tool fontconfig-font-replacements bits
 $ sudo dnf install greybird-dark-theme greybird-light-theme adwaita-gtk2-theme adwaita-cursor-theme adwaita-icon-theme
 $ sudo dnf install lxappearance pulseaudio-utils alsa-plugins-pulseaudio mpg123-plugins-pulseaudio xclip
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn NetworkManager-openvpn-gnome network-manager-applet
-$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel hub patch perf sqlite strace tree whois ShellCheck cronie bison rclone awscli
+$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel hub patch perf sqlite strace tree whois ShellCheck cronie bison rclone awscli bat
 $ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassxc lsof openssl
 $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager bridge-utils libvirt virt-install qemu-kvm
