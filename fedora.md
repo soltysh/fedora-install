@@ -24,8 +24,8 @@ $ sudo dnf install fontconfig fonts-tweak-tool fontconfig-font-replacements bits
 $ sudo dnf install greybird-dark-theme greybird-light-theme adwaita-gtk2-theme adwaita-cursor-theme adwaita-icon-theme
 $ sudo dnf install lxappearance pulseaudio-utils alsa-plugins-pulseaudio mpg123-plugins-pulseaudio xclip
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn NetworkManager-openvpn-gnome network-manager-applet
-$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel hub patch perf sqlite strace tree whois ShellCheck cronie bison
-$ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassx lsof openssl
+$ sudo dnf install vim vim-X11 git tig mercurial hgview make gcc gdb bazel hub patch perf sqlite strace tree whois ShellCheck cronie bison rclone awscli
+$ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups dstat jq lshw weechat bc rsync mc simple-mtpfs pciutils alsa-utils pulseaudio autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassxc lsof openssl
 $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager bridge-utils libvirt virt-install qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -61,4 +61,12 @@ Now you're ready to lunch i3 as a user service:
 ```sh
 $ systemctl --user enable i3.service
 $ systemctl --user enable checkbattery.timer
+```
+
+### Brother printing
+
+You need to allow cups to execmem, see https://bugzilla.redhat.com/show_bug.cgi?id=1258238#c1:
+
+```sh
+setsebool -P cups_execmem 1
 ```
