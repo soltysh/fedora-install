@@ -36,6 +36,10 @@ $ sudo dnf install ImageMagick ffmpeg geeqie gimp youtube-dl wireshark nmap mtr 
 Follow the steps from https://github.com/soltysh/fedora-better-fonts/blob/master/build_instructions.md to build
 packages and then install the results.
 
+### Installing simple-mtpfs
+
+Build and install https://github.com/phatina/simple-mtpfs.
+
 ### Setting up environment
 
 ```sh
