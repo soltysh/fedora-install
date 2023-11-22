@@ -19,7 +19,7 @@ Run these commands to install X, i3 and a terminal.
 ```sh
 $ sudo dnf install @base-x i3 i3lock xbindkeys rxvt-unicode bash-completion
 $ sudo dnf copr enable vgromov/better_fonts
-$ sudo dnf install fontconfig fonts-tweak-tool  bitstream-vera-sans-fonts dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts fontawesome4-fonts gdouros-symbola-fonts google-droid-sans-fonts google-droid-sans-mono-fonts google-noto-emoji-color-fonts levien-inconsolata-fonts liberation-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts libfonts terminus-fonts
+$ sudo dnf install fontconfig fonts-tweak-tool fira-code-fonts bitstream-vera-sans-fonts dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts fontawesome4-fonts gdouros-symbola-fonts google-droid-sans-fonts google-droid-sans-mono-fonts google-noto-emoji-color-fonts levien-inconsolata-fonts liberation-fonts liberation-fonts-common liberation-mono-fonts liberation-sans-fonts liberation-serif-fonts libfonts terminus-fonts
 $ sudo dnf install greybird-dark-theme greybird-light-theme adwaita-gtk2-theme adwaita-cursor-theme adwaita-icon-theme
 $ sudo dnf install lxappearance pulseaudio-utils mpg123-plugins-pulseaudio xclip
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn NetworkManager-openvpn-gnome network-manager-applet
