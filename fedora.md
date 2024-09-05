@@ -29,6 +29,9 @@ $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager bridge-utils libvirt virt-install qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 $ sudo dnf install ImageMagick ffmpeg ffmpeg-libs gstreamer1-plugin-openh264 mozilla-openh264 geeqie gimp youtube-dl wireshark nmap mtr unrar mplayer pavucontrol inkscape blender darktable audacity obs-studio cmus gimp
+$ sudo dnf install lm_sensors smartmontools google-chrome-stable sysstat stress code fzf gh timew rigrep nodejs
+$ sudo dnf copr enable hyperreal/better_fonts
+$ sudo dnf install archivo-black-fonts catharsis-cormorant-garamond-fonts courier-prime-fonts eosrei-emojione-fonts twemoji-color-font twitter-twemoji-fonts fontconfig-font-replacements impallari-libre-baskerville-fonts ubuntu-fonts
 ```
 
 ### Installing fonts
