@@ -24,7 +24,7 @@ $ sudo dnf install greybird-dark-theme greybird-light-theme adwaita-gtk2-theme a
 $ sudo dnf install lxappearance pulseaudio-utils mpg123-plugins-pulseaudio xclip
 $ sudo dnf install NetworkManager-wifi NetworkManager-openvpn NetworkManager-openvpn-gnome network-manager-applet
 $ sudo dnf install vim vim-X11 git tig mercurial hgview make automake gcc g++ gdb hub patch perf sqlite strace tree whois ShellCheck shfmt cronie bison rclone awscli bat v4l-utils bolt
-$ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups pcp-system-tools jq lshw weechat bc rsync mc simple-mtpfs pciutils autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassxc lsof openssl redshift blueman xset
+$ sudo dnf install ansible podman buildah htop dmidecode clipit gnome-keyring krb5-workstation tar zip unzip p7zip bzip2 cups pcp-system-tools jq lshw weechat bc rsync mc simple-mtpfs pciutils autofs net-tools rdate usbutils ntfs-3g httpie at bind-utils calibre keepassxc lsof openssl redshift blueman xset btop duf
 $ sudo dnf install firefox libreoffice evince
 $ sudo dnf install virt-manager bridge-utils libvirt virt-install qemu-kvm
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
